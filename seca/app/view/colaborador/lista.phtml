@@ -1,0 +1,60 @@
+<div class="page" style="padding: 10px;">
+    <h3>Lista de Técnicos</h3>
+    <div class="page-region">
+          <form name="fCadastro" id="fCadastro" action="index.php?Colaborador/listar" method="post">
+              <input type="hidden" name="filtro" value="TRUE"/>
+              <?php if($view_listMunicipios != ""){ ?>
+                <h2>Município</h2>
+                <div class="input-control select">
+                    <select name="ide_municipio" id="ide_municipio" >
+                        <option value="" selected="selected">Selecione</option>
+                        <?php echo $view_listMunicipios; ?>
+                    </select>
+                    
+                </div>
+                 <br/>
+                <input type="submit" value="Filtrar">
+                <?php }else{?>
+                <div class='notices'>
+                    <div class='bg-color-blue'>
+                        <div class='notice-icon'> <img/> </div>
+                        <div class='notice-header'>Nenhum Registro</div>
+                        <div class='notice-text'>Não há técnico cadastrado.</div>
+                    </div>
+                </div>
+                <?php }?>
+          </form>
+        <div class="page-region-content">
+            <!-- inicio table com lista de usuarios -->
+            
+            <?php if($view_filtro){ if($view_listColaborador != null){ ?>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Município Atuação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($view_listColaborador as $objTecnico) : ?>
+                    <tr><td><a href="index.php?Colaborador/informar/id/<?php echo $objTecnico->getId(); ?>"><?php echo $objTecnico->getNome(); ?></a></td>
+                        <td><?php echo $objTecnico->getMunicipio()->getNome(); ?></td>
+                        
+                    </tr>
+                    <?php endforeach ?>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            <?php }else{?>
+            <div class='notices'>
+                    <div class='bg-color-blue'>
+                        <div class='notice-icon'> <img/> </div>
+                        <div class='notice-header'>Nenhum Registro</div>
+                        <div class='notice-text'>Não há técnico cadastrado.</div>
+                    </div>
+                </div>
+            
+            <?php } }?>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="page" style="padding: 10px;">
+    <div class="page-header ">
+        <div class="page-header-content">
+            <h1>Entrega<small>Informações</small></h1>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <h2>Identificação</h2>
+            <?php echo $view_objEntrega->getId(); ?>
+            <h2>Comunidade</h2>
+            <?php echo $view_objEntrega->getComunidade(); ?>
+            <h2>Número da Nota</h2>
+            <?php echo $view_objEntrega->getNumNota(); ?>
+            <h2>Valor da Nota</h2>
+            <?php echo $view_objEntrega->getValorNota(); ?>
+            <h2>Quilometragem</h2>
+            <?php echo $view_objEntrega->getQuilometragem(); ?>
+            <h2>Técnico</h2>
+            <?php echo $view_objColaborador->getNome(); ?>
+            <h2>Município</h2>
+            <?php echo $view_objMunicipio->getNome(); ?>
+            <h2>Quantidade de pessoas beneficiadas</h2>
+            <?php echo $view_objEntrega->getQuantidadeBeneficiados(); ?>
+        </div>
+    </div>
+</div>

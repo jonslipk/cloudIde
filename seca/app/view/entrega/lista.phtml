@@ -1,0 +1,53 @@
+<div class="page " style="padding: 10px;">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Entregas<small>lista</small></h1>
+            
+        </div>
+    </div>
+
+    <div class="page-region">
+        <div class="page-region-content">
+            <!-- inicio table com lista de usuarios -->
+           
+            <?php if($view_listEntrega != null){ ?>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Comunidade</th>
+                        <th>Número da Nota</th>
+                        <th>Valor Nota</th>
+                        <th>Quilometragem</th>
+                        <th>Municipio</th>
+                        <th>Quantidade de pessoas beneficiadas</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($view_listEntrega as $objEntrega) : ?>
+                    <tr>
+                        <td><a href="index.php?Entrega/informar/id/<?php echo $objEntrega->getId(); ?>"><?php echo $objEntrega->getComunidade(); ?></a></td>
+                        <td><?php echo $objEntrega->getNumNota(); ?></td>
+                        <td><?php echo $objEntrega->getValorNota(); ?></td>
+                        <td><?php echo $objEntrega->getQuilometragem(); ?></td>
+                        <td><?php echo $objEntrega->getMunicipio()->getNome(); ?></td>
+                        <td><?php echo $objEntrega->getQuantidadeBeneficiados(); ?></td>
+                   
+                    </tr>
+                    <?php endforeach ?>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            <?php }else{?>
+            <div class='notices'>
+                    <div class='bg-color-blue'>
+                        <div class='notice-icon'> <img/> </div>
+                        <div class='notice-header'>Nenhum Registro</div>
+                        <div class='notice-text'>Não há entregas cadastradas.</div>
+                    </div>
+                </div>
+            
+            <?php } ?>
+        </div>
+    </div>
+</div>

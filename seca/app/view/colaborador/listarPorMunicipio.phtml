@@ -1,0 +1,30 @@
+<div class="page" style="padding: 10px;">
+    <div class="page-region">
+        <div class="page-region-content">
+            <h2>Lista de Pipeiros</h2>
+            <?php if($view_listPipeiros_top != null): ?>
+            <table class="bordered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Numero CPF</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach($view_listPipeiros_top as $objColaborador): ?>
+                    <tr>
+                        <td><a href="index.php?Colaborador/informar/id/<?php echo $objColaborador->getId(); ?>"><?php echo $objColaborador->getNome(); ?></a></td>
+                        <td><?php echo $objColaborador->getNumeroCPF(); ?></td>
+                        
+                    </tr>
+                    <?php endforeach; ?>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            <?php else: ?>
+            <h3>Nenhum pipeiro cadastrado</h3>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>

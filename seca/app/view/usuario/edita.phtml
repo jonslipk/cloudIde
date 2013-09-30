@@ -1,0 +1,47 @@
+<script type="text/javascript">
+    $(function(){
+        $('#fCadastro').populate(<?php echo $view_json_objeto; ?>);
+    });      
+</script>
+<div class="page secondary">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Usuário<small>editar</small></h1>
+            <a href="javascript:history.go(-1)" class="back-button big page-back"></a>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <div id="notice"></div>
+             <form name="fCadastro" id="fCadastro" action="index.php?Usuario/atualizar" method="post">
+                 <input type="hidden" id="ide_usuario" name="ide_usuario" value=""/>
+                <h2>Técnico</h2>
+                <label><?php //echo $view_objUsuario->getTecnico()->getNome(); ?></label>
+                <h2>Login</h2>
+                <div class="input-control text">
+                    <input type="text" id="log_usuario" name="log_usuario" maxlength="25" required=""/>
+                </div>
+                <h2>Perfil</h2>
+                <div class="input-control select">
+                    <select id="ide_perfil" name="ide_perfil" required="">
+                        <option value="" selected="selected">Selecione</option>
+                        <?php  
+                            foreach ($view_listPerfil as $objPerfil) {
+                                echo "<option value='{$objPerfil->getId()}'>{$objPerfil->getNome()}</option>";
+                            }
+                        ?>
+                    </select>
+                </div>
+                <h2>Status</h2>
+                <div class="input-control select">
+                    <select id="des_status" name="des_status" required="">
+                        <option value="" selected="selected">Selecione</option>
+                        <option value="A">Ativar</option>
+                        <option value="D">Desativar</option>
+                    </select>
+                </div>
+                <input type="submit" value="Salvar">
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="page secondary">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Localizar<small>viagens e grupos</small></h1>
+            <a href="javascript:history.go(-1)" class="back-button big page-back"></a>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <form name="fCadastro" id="fCadastro" action="index.php?Viagem/inserir" method="post">
+                <h2>Projeto</h2>
+                    <div class="input-control select">
+                        <select name="Cd_Projeto" id="cd_projeto" required="">
+                            <option value="" selected="">Selecione</option>
+                            <?php echo $view_listProjeto; ?>
+                        </select>
+                    </div>
+                <br/>
+                <input type="submit" value="Localizar" id="localizar">
+            </form>
+        </div>
+    </div>
+</div>

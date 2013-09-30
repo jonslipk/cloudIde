@@ -1,0 +1,2 @@
+ErrorDocument 404 /spv/index.php?Erro/erro404
+ErrorDocument 500 /spv/index.php?Erro/erro500

@@ -1,0 +1,38 @@
+<div class="page secondary">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Cadastro<small>Bairro</small></h1>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+
+            <form name="fCadastro" id="fCadastro" action="index.php?Bairro/inserir" method="post">
+                
+                <h2>Nome</h2>
+                <div class="input-control text">
+                    <input type="text" name="nom_bairro" id="nom_bairro" maxlength="60" required=""/>
+                </div>
+                
+                <h2>Municipio</h2>
+                <div class="input-control select">
+                    <select name="ide_municipio" id="ide_municipio" required="">
+                        <option value="" selected="selected">Selecione</option>
+                        <?php  
+                            echo $view_listMunicipio;
+                        ?>
+                    </select>
+                </div>
+                
+                <label class="checkbox as-block">
+                    <input type="checkbox" id="des_status" name="des_status" checked="" value="A"/>
+                    <span>Ativar Bairro</span>
+                </label>                
+
+                <input type="submit" value="Salvar">
+            </form>            
+            
+        </div>
+    </div>
+
+</div>

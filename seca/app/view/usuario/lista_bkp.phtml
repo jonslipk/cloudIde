@@ -1,0 +1,53 @@
+<script>
+    $(function(){
+       $(".nome-usuario").click(function(){
+           $("#conteudo").css("display","block");
+           //$("#conteudo").append($(this).attr("id"));
+            $.ajax({
+                type: "post",
+                url: "index.php?Usuario/obterUsuario",
+                data: {id:$(this).attr("id")},
+                dataType: "json",
+                success: function(data){
+                    $("#nome").append(data.nome);
+                }
+            });       
+       });
+    });
+</script>
+<div class="page snapped">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Usuarios<small>lista</small></h1>
+        </div>        
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Nome do Usuário</th>
+                    </tr>                    
+                </thead>
+                <tbody>
+                    <?php foreach ($view_listUsuario as $objUsuario) : ?>
+                    <tr><td><a href="#" class="nome-usuario" id="<?php echo $objUsuario->getId(); ?>"><?php echo $objUsuario->getNome(); ?></a></td></tr>
+                    <?php endforeach ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</div>
+<div class="page fill" id="conteudo" style="display: none;">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Informação<small>usuário</small></h1>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <h2 id="nome"></h2>
+        </div>
+    </div>
+</div>

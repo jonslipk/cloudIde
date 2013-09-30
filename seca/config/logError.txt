@@ -1,0 +1,174 @@
+(11-03-2013 16:58:54) C/A: Colaborador/informar/id/5 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:00:49) C/A: Colaborador/informar/id/5 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:27:41) C/A: Colaborador/informar/id/5 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:28:32) C/A: Colaborador/informar/id/5 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:30:08) C/A: Colaborador/informar/id/5 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:30:43) C/A: Colaborador/informar/id/5 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:32:04) C/A: Colaborador/informar/id/5 EM: listar pessoal.controle ERROR:  syntax error at or near "ide_sistema"
+LINE 1: ...ole FROM pessoal.controle WHERE ide_colaborador=5 ide_sistem...
+                                                             ^ #SQL#: [SELECT ide_colaborador,ide_sistema,ide_tipo_colaborador,ide_colaborador_responsavel,des_status,ide_controle FROM pessoal.controle WHERE ide_colaborador=5 ide_sistema = 4 ]
+
+(11-03-2013 17:33:39) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:33:39) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:33:39) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:33:39) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:33:43) C/A: Colaborador/informar/id/2 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:35:08) C/A: Colaborador/informar/id/2 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:35:17) C/A: Colaborador/informar/id/2 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:35:46) C/A: Colaborador/informar/id/2 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:36:12) C/A: Colaborador/informar/id/2 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:36:24) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:36:24) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:36:24) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:36:24) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:36:29) C/A: Colaborador/informar/id/7 EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:36:29) C/A: Colaborador/informar/id/7 EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:36:29) C/A: Colaborador/informar/id/7 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(11-03-2013 17:36:35) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:36:35) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:36:35) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:36:35) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:36:37) C/A: Colaborador/informar/id/4 EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(11-03-2013 17:36:37) C/A: Colaborador/informar/id/4 EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(11-03-2013 17:36:37) C/A: Colaborador/informar/id/4 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(12-03-2013 09:56:28) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(12-03-2013 09:56:28) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(12-03-2013 09:56:55) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(12-03-2013 09:56:55) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(12-03-2013 11:13:54) C/A: Colaborador/listar EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(12-03-2013 11:13:54) C/A: Colaborador/listar EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(12-03-2013 11:13:55) C/A: Colaborador/informar/id/7 EM: listar geografico.bairro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_bairro,nom_bairro,ide_municipio,des_status FROM geografico.bairro WHERE ide_bairro = '' ]
+
+(12-03-2013 11:13:55) C/A: Colaborador/informar/id/7 EM: listar geografico.tipo_logradouro ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_tipo_logradouro,des_tipo_logradouro,des_status FROM geografico.tipo_logradouro WHERE ide_tipo_logradouro = '' ]
+
+(12-03-2013 11:13:55) C/A: Colaborador/informar/id/7 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(12-03-2013 11:16:50) C/A: Colaborador/informar/id/8 EM: listar pessoal.colaborador ERROR:  invalid input syntax for integer: "" #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador = '' ]
+
+(12-03-2013 14:37:27) C/A: Usuario/logar EM: listar pessoal.colaborador ERROR:  column "des_status" does not exist
+LINE 1: ...oal.colaborador WHERE num_cpf = '24584691169' AND des_status...
+                                                             ^ #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE num_cpf = '24584691169' AND des_status = 'A' ]
+
+(13-03-2013 10:32:37) C/A: Usuario/cadastrar EM: listar pessoal.colaborador ERROR:  column "ide_responsavel" does not exist
+LINE 9:                                 WHERE ide_responsavel  = 5  ...
+                                              ^ #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador IN (
+                        SELECT controle.ide_colaborador
+                        FROM pessoal.controle, pessoal.colaborador
+                        WHERE controle.ide_colaborador = colaborador.ide_colaborador 
+                            AND controle.ide_sistema = '4' 
+                            AND controle.ide_tipo_colaborador IN (
+                                SELECT ide_tipo_colaborador 
+                                FROM pessoal.responsabilidade 
+                                WHERE ide_responsavel  = 5                        
+                            ) 
+                            AND controle.ide_colaborador NOT IN(
+                                SELECT ide_colaborador FROM seguranca.usuario u
+                                INNER JOIN seguranca.usuario__perfil up ON u.ide_usuario = up.ide_usuario
+                                INNER JOIN seguranca.perfil p ON p.ide_perfil = up.ide_perfil
+                                WHERE p.ide_sistema = '4' 	
+                            )
+                    )  ORDER BY nom_colaborador ]
+
+(13-03-2013 10:34:27) C/A: Usuario/cadastrar EM: listar pessoal.colaborador ERROR:  column "ide_responsavel" does not exist
+LINE 9:                                 WHERE ide_responsavel  = 5  ...
+                                              ^ #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador IN (
+                        SELECT controle.ide_colaborador
+                        FROM pessoal.controle, pessoal.colaborador
+                        WHERE controle.ide_colaborador = colaborador.ide_colaborador 
+                            AND controle.ide_sistema = '4' 
+                            AND controle.ide_tipo_colaborador IN (
+                                SELECT ide_tipo_colaborador 
+                                FROM pessoal.responsabilidade 
+                                WHERE ide_responsavel  = 5                        
+                            ) 
+                            AND controle.ide_colaborador NOT IN(
+                                SELECT ide_colaborador FROM seguranca.usuario u
+                                INNER JOIN seguranca.usuario__perfil up ON u.ide_usuario = up.ide_usuario
+                                INNER JOIN seguranca.perfil p ON p.ide_perfil = up.ide_perfil
+                                WHERE p.ide_sistema = '4' 	
+                            )
+                    )  ORDER BY nom_colaborador ]
+
+(13-03-2013 14:46:45) C/A: Usuario/cadastrar EM: listar pessoal.colaborador ERROR:  syntax error at or near ";"
+LINE 6: ...               AND controle.ide_colaborador_responsavel = 5;
+                                                                      ^ #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador IN (
+                        SELECT controle.ide_colaborador
+                        FROM pessoal.controle, pessoal.colaborador
+                        WHERE controle.ide_colaborador = colaborador.ide_colaborador 
+                            AND controle.ide_sistema = '4' 
+                            AND controle.ide_colaborador_responsavel = 5;
+                            AND controle.ide_colaborador NOT IN(
+                                SELECT ide_colaborador FROM seguranca.usuario u
+                                INNER JOIN seguranca.usuario__perfil up ON u.ide_usuario = up.ide_usuario
+                                INNER JOIN seguranca.perfil p ON p.ide_perfil = up.ide_perfil
+                                WHERE p.ide_sistema = '4' 	
+                            )
+                    )  ORDER BY nom_colaborador ]
+
+(13-03-2013 14:56:32) C/A: Usuario/cadastrar EM: listar pessoal.colaborador ERROR:  syntax error at or near ";"
+LINE 6: ...               AND controle.ide_colaborador_responsavel = 5;
+                                                                      ^ #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador IN (
+                        SELECT controle.ide_colaborador
+                        FROM pessoal.controle, pessoal.colaborador
+                        WHERE controle.ide_colaborador = colaborador.ide_colaborador 
+                            AND controle.ide_sistema = '4' 
+                            AND controle.ide_colaborador_responsavel = 5;
+                            AND controle.ide_colaborador NOT IN(
+                                SELECT ide_colaborador FROM seguranca.usuario u
+                                INNER JOIN seguranca.usuario__perfil up ON u.ide_usuario = up.ide_usuario
+                                INNER JOIN seguranca.perfil p ON p.ide_perfil = up.ide_perfil
+                                WHERE p.ide_sistema = '4' 	
+                            )
+                    )  ORDER BY nom_colaborador ]
+
+(13-03-2013 14:57:25) C/A: Usuario/cadastrar EM: listar pessoal.colaborador ERROR:  syntax error at or near ";"
+LINE 6: ...               AND controle.ide_colaborador_responsavel = 5;
+                                                                      ^ #SQL#: [SELECT ide_colaborador,nom_colaborador,num_cpf,dat_nascimento,num_telefone1,num_telefone2,des_endereco_referencia,des_email,ide_bairro,nom_logradouro,ide_municipio,ide_tipo_logradouro,num_logradouro,num_cep,ide_usuario_criador,dat_criacao,ide_usuario_atualizador,dat_atualizacao,nom_mae,ide_tipo_escolaridade FROM pessoal.colaborador WHERE ide_colaborador IN (
+                        SELECT controle.ide_colaborador
+                        FROM pessoal.controle, pessoal.colaborador
+                        WHERE controle.ide_colaborador = colaborador.ide_colaborador 
+                            AND controle.ide_sistema = '4' 
+                            AND controle.ide_colaborador_responsavel = 5;
+                            AND controle.ide_colaborador NOT IN(
+                                SELECT ide_colaborador FROM seguranca.usuario u
+                                INNER JOIN seguranca.usuario__perfil up ON u.ide_usuario = up.ide_usuario
+                                INNER JOIN seguranca.perfil p ON p.ide_perfil = up.ide_perfil
+                                WHERE p.ide_sistema = '4' 	
+                            )
+                    )  ORDER BY nom_colaborador ]
+

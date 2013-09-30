@@ -1,0 +1,21 @@
+<div class="page secondary">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Usuário<small>Informações</small></h1>
+            <a href="javascript:history.go(-1)" class="back-button big page-back"></a>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <div>
+                <?php echo $view_toolbar; ?>    
+            </div>
+            <h2>Nome</h2>
+            <?php echo $view_objUsuario->getTecnico()->getNome(); ?>
+            <h2>Login</h2>
+            <?php echo $view_objUsuario->getLogin(); ?>
+            <h2>Perfil</h2>
+            <a href="index.php?Perfil/informar/id/<?php echo $view_objUsuario->getPerfil()->getId(); ?>"><?php echo $view_objUsuario->getPerfil()->getNome(); ?></a>
+        </div>
+    </div>
+</div>

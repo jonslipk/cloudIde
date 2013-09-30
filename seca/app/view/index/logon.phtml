@@ -1,0 +1,41 @@
+<style>
+    #box {alignment-adjust: central; height:480px; left:50%; margin:-240px 0 0 -240px; position:absolute; top:50%; width:400px;}
+</style>
+<div id="box">
+    <h1><?php echo NAME_SIS; ?></h1>
+    <h4><?php echo DESCRICAO_SIS; ?></h4>
+    <br/>
+    <?php if ($view_error) : ?>
+        <div class="notices">
+            <div class="bg-color-red">
+                <div class="notice-icon"><img src="<?php echo PATH_IMAGE ?>shield-user.png"></div>
+                <div class="notice-image"><img src="<?php echo PATH_IMAGE ?>armor.png"></div>
+                <div class="notice-header fg-color-yellow">Falha no Logon</div>
+                <div class="notice-text"><?php echo $view_message; ?></div>
+            </div>
+        </div>
+    <?php endif; ?>
+    <form name="fLogin" id="fLogin" action="index.php?Usuario/logar" method="post">
+        <div style="width: 300px;">
+            <h2>Login</h2>
+            <div class="input-control text">
+                <input type="text" name="num_cpf" id="num_cpf" required=""/>
+            </div>
+            <h2>Senha</h2>
+            <div class="input-control password">
+                <input type="password" name="senha" id="senha" required=""/>
+            </div>
+            <br/>
+            <input type="submit" name="acesso" value="Acessar"/>
+        </div>
+    </form>
+</div>
+<div style="display:scroll;position:fixed;bottom:0px;right:0px;padding: 5px;">
+    <a href="http://www.defesacivil.ba.gov.br" title="Defesa Civil da Bahia" target="_blank">
+        <img src="<?php echo PATH_IMAGE ?>cordec.png">
+    </a>
+</div>
+<div id="inf_rodape" style="position: absolute;bottom: 0;color: white;">
+    <small>Coordenação de Modernização :: Versão <?php echo VERSAO; ?></small>
+</div>
+

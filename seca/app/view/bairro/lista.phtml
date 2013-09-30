@@ -1,0 +1,29 @@
+<div class="page secondary">
+    <div class="page-header">
+        <div class="page-header-content">
+            <h1>Lista<small>Bairro</small></h1>
+        </div>
+    </div>
+    <div class="page-region">
+        <div class="page-region-content">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <?php foreach ($view_listBairro as $bairro) : ?>
+                            <tr>
+                                <td>
+                                    <a href="#"><?php echo $bairro->getNome(); ?></a>
+                                </td>
+                            </tr>
+                        <?php endforeach ?>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,32 @@
+<div class="page" style="padding: 10px;">
+    <h2>Informações do Técnico</h2>
+    <div class="page-region">
+        <div class="page-region-content">
+
+            <h2>Nome:</h2>
+            <?php echo $view_objColaborador->getNome(); ?>
+            <h2>Número Cpf</h2> 
+            <?php echo $view_objFormatHelper->formatCPF($view_objColaborador->getNumeroCPF()); ?>
+            <h2>Data Nascimento</h2>
+            <?php echo $view_objFormatHelper->formatData($view_objFormatHelper->dataInversaToNormal($view_objColaborador->getDataNascimento())); ?>
+            <h2>Município</h2>
+            <?php echo $view_objColaborador->getMunicipio()->getNome(); ?>
+            <br />
+            <form name="fCadastro" id="fCadastro" action="index.php?Colaborador/recuperar" method="post">
+                <input type="hidden" id="ide_colaborador" name="ide_colaborador" value="<?php echo $view_objColaborador->getId(); ?>"/>
+
+                <h2>Tipo do Técnico</h2>
+                <div class="input-control select">
+                    <select name="ide_tipo_colaborador" id="ide_tipo_colaborador" required="">
+                        <option value="" selected="selected">Selecione</option>
+                        <?php echo $view_listTipoColaborador; ?>
+                    </select>
+                </div>
+
+                <input type="submit" value="Recuperar" id="Recuperar">
+            </form>
+
+        </div>
+    </div>
+
+</div>

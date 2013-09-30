@@ -1,0 +1,67 @@
+<div class="page" style="padding: 10px;">
+    <h2>Informações do Técnico</h2>
+    <div class="page-region">
+        <div class="page-region-content">
+            <?php echo $view_toolbar; ?>
+            <div class="page-control" data-role="page-control">
+                <ul>
+                    <li class="active"><a href="#frameI">Identificação</a></li>
+                    <li><a href="#frameD">Domicílio</a></li>
+                    <li><a href="#frameE">Entregas</a></li>
+                    <li><a href="#frameR">Rede Técnica</a></li>
+                </ul>
+                <div class="frames">
+                    <div class="frame active" id="frameI">
+                        <h2>Nome:</h2>
+                        <?php echo $view_objColaborador->getNome(); ?>
+                        <h2>Número CPF</h2> 
+                        <?php echo $view_objFormatHelper->formatCPF($view_objColaborador->getNumeroCPF()); ?>
+                        <h2>Data Nascimento</h2>
+                        <?php echo $view_objFormatHelper->formatData($view_objFormatHelper->dataInversaToNormal($view_objColaborador->getDataNascimento())); ?>
+                        <h2>Status</h2>
+                        <?php echo $view_objControle->getStatus() == "A" ? "Ativo" : "Destivado"; ?>
+                        <h2>Município Atuação</h2>
+                        <?php echo $view_objColaborador->getMunicipio()->getNome(); ?>
+                        <h2>Tipo de Técnico</h2>
+                        <?php echo $view_objControle->getTipo()->getNome(); ?>
+                        <?php if ($view_objControle->getResponsavel()->getNome() != ""){?>
+                        <h2>Técnico Responsável</h2>
+                        <?php echo $view_objControle->getResponsavel()->getNome(); ?>
+                        <?php }?>
+                    </div>
+                    <div class="frame" id="frameD">
+                        <h2>Endereço</h2>
+                        <?php echo $view_objColaborador->getEndereco(); ?>
+                        <h2>Município Domicílio</h2>
+                        <?php echo $view_objColaborador->getMunicipio()->getNome(); ?>
+                    </div>
+                    <div class="frame" id="frameE">
+                        <h3>Entregas</h3>
+                        
+                    </div>
+                    <div class="frame" id="frameR">
+                        <h3>Técnicos sobre a responsabilidade</h3>
+                        <table class="striped">
+                            <thead>
+                                <tr>
+                                    <th>CPF</th>
+                                    <th>Nome</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <?php foreach ($view_listColaborador as $objColaborador): ?>
+                                    <tr>
+                                        <td><?php echo $view_objFormatHelper->formatCPF($objColaborador->getNumeroCPF()); ?></td>
+                                        <td><?php echo $objColaborador->getNome(); ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

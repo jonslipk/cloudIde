@@ -1,0 +1,52 @@
+<div class="page" style="padding: 10px;">
+    <div class="page-region">
+        <div class="page-region-content">
+            <h1>Entregas</h1>
+            <form name="fCadastro" id="fCadastro" action="index.php?Entrega/inserir" method="post">
+                <h2>Município </h2>
+                <div class="input-control select">
+                    <select name="ide_municipio" id="ide_municipio" required="">
+                        <option value="" selected="selected">Selecione</option>
+                        <?php echo $view_listMunicipio; ?>
+                    </select>
+                </div>
+                <h2>Técnico</h2>
+                <div class="input-control select">
+                    <select name="ide_colaborador" id="ide_colaborador" required="">
+                        <option value="" selected="selected">Selecione</option>
+                        <?php echo $view_listColaborador; ?>
+                    </select>
+                </div>
+                <h2>Comunidade </h2>
+                <div class="input-control text">
+                    <input type="text" name="des_comunidade" id="comunidade"  required="" />
+                </div>
+                <h2>Número da Nota </h2>
+                <div class="input-control text">
+                    <input type="text" name="num_nota" id="num_nota"  required="" style="width: 200px;"/>
+                </div>
+                 <h2>Valor da Nota</h2>
+                <div class="input-control text">
+                    <input type="text" name="vlr_nota" id="valor_nota"  required="" style="width: 200px;"/>
+                </div>
+                <h2>Quilometragem(KM)</h2>
+                <div class="input-control text">
+                    <input type="text" name="num_quilometragem" id="quilometragem"  required="" style="width: 200px;"/>
+                </div>
+                <h2>Quantidade de pessoas beneficiadas</h2>
+                <div class="input-control text">
+                    <input type="text" name="qtd_pessoas_beneficiadas" id="beneficiados"   style="width: 200px;"/>
+                </div>
+               
+               
+                <input type="hidden" name="des_status" checked="" value="A"/>
+                <input type="hidden" name="des_locked" checked="" value="A"/>
+                    
+                  
+                  
+
+                <input type="submit" value="Salvar">
+            </form>
+        </div>
+    </div>
+</div>

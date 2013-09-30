@@ -1,0 +1,30 @@
+<div class="page" style="padding: 10px;">
+    <div class="page-region">
+        <div class="page-region-content">
+            <h2>Usuários</h2>
+            <?php if($view_listUsuario != null): ?>
+            <table class="bordered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Numero CPF</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach($view_listUsuario as $objUsuario): ?>
+                    <tr>
+                        <td><?php echo $objUsuario->getColaborador()->getNome(); ?></td>
+                        <td><?php echo $objUsuario->getColaborador()->getNumeroCPF(); ?></td>
+                        <td><?php echo $status = ($objUsuario->getStatus() == "A")? "Ativo" : "Desativado" ; ?></td>
+                    </tr>
+                    <?php endforeach; ?>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            <?php else: ?>
+            <h3>Nenhum usuário encontrado</h3>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
