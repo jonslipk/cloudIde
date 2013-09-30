@@ -53,6 +53,8 @@ class BairroController extends Controller implements ControllerInterface {
     public function obterBairrosPorMunicipio() {
 
         $id = $this->getParam("id");
+        $id1 = $this->getParam("id");
+        $id2 = $this->getParam("id");
 
         # Lista de Bairro
         $objBairroAction = $this->_Factory->fabricar('BairroAction');
@@ -65,8 +67,8 @@ class BairroController extends Controller implements ControllerInterface {
         } else {
             $arrayJson = false;
         }
-
-
+        
+            
         echo json_encode($arrayJson);
         
     }
